@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited, a:hover, a:active{
+    color: black;
+    text-decoration: none;
+}
+header{
+    background-color: #D5D2D5;
+}
+body{
+    background-color: white;
+    list-style: none;
+}
+h1{
+    color: #AF2848;
+    font-size: 100px;
+    margin: 10px 0 0 20px;
+}
+h2{
+    margin: 0 0 20px 20px ;
+}
+.main{
+    background-image: url(../Images/lab_fondo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:top;
+    background-size: cover;
+}
+.reseña{
+    padding: 100px 400px 400px 100px;
+    font-size:x-large;
+    font-family: sans-serif;
+}
+.contactanos{
+    display: flex;
+    justify-content: space-between;
+    font-size:x-large;
+    font-family: sans-serif;
+}
+.donde_estamos{
+    background-image: url(../Images/Imagen_Frente.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    padding: 100px 100px 100px 100px;
+}
+.navbar-nav2{
+    display: flex;
+    justify-content: space-around;
+}
+.slide{
+    margin: 100px 100px 100px 100px;
+}
+footer{
+    background-color: #D5D2D5;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 10px 0;
+}
+footer div{
+    border: 5px solid black;
+}
+footer div section{
+    display: flex;
+    justify-content: center;
+}
